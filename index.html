@@ -145,6 +145,136 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/13/file_with_toc/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/01/13/file_with_toc/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2022-01-13 14:14:23 / Modified: 14:14:54" itemprop="dateCreated datePublished" datetime="2022-01-13T14:14:23+08:00">2022-01-13</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p><a name="index"><strong>Index</strong></a><br><a href="#0">BLOG COMMAND CHEATSHEET</a><br>&emsp;<a href="#1">测试　TEST</a><br>&emsp;<a href="#2">部署　DEPLOY</a><br>&emsp;<a href="#3">脚本　BASH</a><br>&emsp;&emsp;<a href="#4">增加目录</a><br>&emsp;&emsp;<a href="#5">增加编号</a>  </p>
+<h1 id="BLOG-COMMAND-CHEATSHEET-Top"><a href="#BLOG-COMMAND-CHEATSHEET-Top" class="headerlink" title="BLOG COMMAND CHEATSHEET[Top]"></a><a name="0">BLOG COMMAND CHEATSHEET</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a></h1><h2 id="测试-TEST-Top"><a href="#测试-TEST-Top" class="headerlink" title="测试　TEST[Top]"></a><a name="1">测试　TEST</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a></h2><p><code>hexo s</code></p>
+<h2 id="部署-DEPLOY-Top"><a href="#部署-DEPLOY-Top" class="headerlink" title="部署　DEPLOY[Top]"></a><a name="2">部署　DEPLOY</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a></h2><ul>
+<li><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></li>
+<li><code>hexo d</code></li>
+</ul>
+<h2 id="脚本-BASH-Top"><a href="#脚本-BASH-Top" class="headerlink" title="脚本　BASH[Top]"></a><a name="3">脚本　BASH</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a></h2><h3 id="增加目录-Top"><a href="#增加目录-Top" class="headerlink" title="增加目录[Top]"></a><a name="4">增加目录</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a></h3><p><code>python toc.py [filename]</code></p>
+<h3 id="增加编号-Top"><a href="#增加编号-Top" class="headerlink" title="增加编号[Top]"></a><a name="5">增加编号</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a></h3><p><code>python title_id.py [filename]</code></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/12/workflow%20design/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/01/12/workflow%20design/" class="post-title-link" itemprop="url">本地开发工作流设计</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-01-12 18:19:19" itemprop="dateCreated datePublished" datetime="2022-01-12T18:19:19+08:00">2022-01-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-01-13 14:13:49" itemprop="dateModified" datetime="2022-01-13T14:13:49+08:00">2022-01-13</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Docker-配置"><a href="#Docker-配置" class="headerlink" title="Docker 配置"></a>Docker 配置</h2><h3 id="打包环境：jdk1-8-Maven-CentOS-镜像"><a href="#打包环境：jdk1-8-Maven-CentOS-镜像" class="headerlink" title="打包环境：jdk1.8 + Maven + CentOS 镜像"></a>打包环境：jdk1.8 + Maven + CentOS 镜像</h3><h3 id="CI-CD-工作流：Gitea-Drone"><a href="#CI-CD-工作流：Gitea-Drone" class="headerlink" title="CI/CD 工作流：Gitea + Drone"></a>CI/CD 工作流：Gitea + Drone</h3>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/01/06/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -168,10 +298,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2022-01-06 14:30:10 / Modified: 17:19:59" itemprop="dateCreated datePublished" datetime="2022-01-06T14:30:10+08:00">2022-01-06</time>
+              <time title="Created: 2022-01-06 14:30:10" itemprop="dateCreated datePublished" datetime="2022-01-06T14:30:10+08:00">2022-01-06</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2022-01-12 18:19:28" itemprop="dateModified" datetime="2022-01-12T18:19:28+08:00">2022-01-12</time>
+              </span>
 
           
 
@@ -185,6 +321,7 @@
 
       
           <p>Finaly, I’m right here.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\delta t = \sum_0^n \delta x/ \delta v </span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -266,7 +403,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
